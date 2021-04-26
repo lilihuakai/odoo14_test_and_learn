@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+    <t t-name="QQMap">
+        <div id="qqmap_widget">
+            <!-- 展示地图的div -->
+            <div id="container">
+                <!-- 地图上中心点小图标 -->
+                <img id="container-center" src="/qqmap_widget/static/src/img/ziyuan.svg"></img>
+            </div>
+            <!-- 地图下方区域 -->
+            <div id="info">
+                <!-- 地图移动状态 -->
+                <h4 id="txt"></h4>
+                <!-- 地图当前坐标点 -->
+                <p>当前坐标点：<span id="position"></span></p>
+            </div>
+        </div>
+        <!-- 字段储存值展示 -->
+        <span class="o_field_char o_field_widget"></span>
+    </t>
+</template>

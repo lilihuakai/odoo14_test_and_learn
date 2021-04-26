@@ -15,11 +15,13 @@ Provides an example module for OWL.
     "depends": ["sale_management"],
     "data": [
         "views/assets.xml",
+        # "views/res_company_views.xml",
         "views/views.xml",
     ],
     "demo": [],
     "qweb": [
         "static/src/js/components/PartnerOrderSummary.xml",
+        "static/src/xml/qqmap.xml",
     ],
     "installable": True,
     'application': False,

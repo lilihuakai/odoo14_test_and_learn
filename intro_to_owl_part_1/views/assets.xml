@@ -5,4 +5,11 @@
             <script src="/intro_to_owl_part_1/static/src/js/components/PartnerOrderSummary.js"/>
         </xpath>
     </template>
+    <!-- 腾讯地图小部件 -->
+    <!-- <template id="assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link href="/intro_to_owl_part_1/static/src/css/qqmap.css" rel="stylesheet" type="text/css"/>
+            <script src="/intro_to_owl_part_1/static/src/js/qqmap.js" type="text/javascript"/>
+        </xpath>
+    </template> -->
 </odoo>
